@@ -3,8 +3,6 @@ import clsx from "clsx";
 import { deleteInvoice } from "@/app/lib/actions";
 import { TrashIcon } from "@heroicons/react/24/outline";
 
-// ...
-
 export function DeleteInvoice({ id }: { id: string }) {
   const deleteInvoiceWithId = deleteInvoice.bind(null, id);
 
